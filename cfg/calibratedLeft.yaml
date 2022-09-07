@@ -1,0 +1,20 @@
+image_width: 1920
+image_height: 1208
+camera_name: calibratedLeft
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1850.389155, 0.000000, 975.530018, 0.000000, 1846.987251, 642.979092, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.331751, 0.235353, -0.000838, 0.000843, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [0.999370, 0.013566, -0.032806, -0.013184, 0.999843, 0.011827, 0.032962, -0.011387, 0.999392]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1854.454079, 0.000000, 988.345612, 0.000000, 0.000000, 1854.454079, 636.551216, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]

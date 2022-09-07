@@ -19,7 +19,7 @@ link_directories(${glfw_LIBRARY})
 find_package(CUDA REQUIRED)
 find_package(Threads REQUIRED)
 find_package(GLEW REQUIRED)
-find_package(Driveworks REQUIRED)
+#find_package(Driveworks REQUIRED)
 find_package(OpenCV REQUIRED )
 
 # SET THESE VARIABLES TO YOUR DRIVEWORKS LOCATIONS
